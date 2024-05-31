@@ -67,7 +67,9 @@ body {
    padding: 20px 40px;
    font-size: 3vw;
    cursor: pointer;
+   border-radius: 8px;
  }
+
 #countdown {
    font-size: 10vw;
    font-family: "ALK Rounded Mtav Med", sans-serif;
@@ -95,4 +97,16 @@ body {
 .main-text {
    opacity: 0;
    animation: fadeIn 1.5s forwards;
+}
+
+@media only screen and (max-width: 900px){
+   #playMusicButton{
+      font-size: 24px;
+      max-width: 60vw;
+   }
+   .main-text{
+      font-size: 5vw;
+      max-width: 95vw;
+      margin: 0 autol;
+   }
 }
