@@ -58,6 +58,15 @@ body {
    text-decoration: none;
  }
 
+ #playMusicButton{
+   background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%);
+   position: relative;
+   top: 150px;
+   color: #fff;
+   border:none;
+   padding: 20px 40px;
+   font-size: 1vw;
+ }
 #countdown {
    font-size: 10vw;
    font-family: "ALK Rounded Mtav Med", sans-serif;

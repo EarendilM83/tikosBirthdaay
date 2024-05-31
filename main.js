@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 countdownElement.classList.add('hidden');
                 line6.classList.add('hidden');
                 copyrightLine.classList.remove('hidden');
-            }, 20000);
+            }, 15000);
         });
     } else {
         console.error('Fireworks button not found');
