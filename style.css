@@ -66,6 +66,7 @@ body {
    border:none;
    padding: 20px 40px;
    font-size: 1vw;
+   cursor: pointer;
  }
 #countdown {
    font-size: 10vw;
