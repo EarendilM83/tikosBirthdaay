@@ -1,0 +1,88 @@
+@import url("//cdn.web-fonts.ge/fonts/alk-rounded-mtav-med/css/alk-rounded-mtav-med.min.css");
+@import url("//cdn.web-fonts.ge/fonts/bpg-irubaqidze/css/bpg-irubaqidze.min.css");
+@import url("//cdn.web-fonts.ge/fonts/alkdots/css/alkdots.min.css");
+
+
+body {
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background: linear-gradient(45deg, #ff9a9e, #eefac4, #c4faf1, #ffd1ea, #eef4b0, #72b6f7);
+   background-size: 400% 400%;
+   animation: gradientBackground 3s ease infinite;
+}
+
+@keyframes gradientBackground {
+   0% {
+       background-position: 0% 50%;
+   }
+   50% {
+       background-position: 100% 50%;
+   }
+   100% {
+       background-position: 0% 50%;
+   }
+}
+
+.container {
+   text-align: center;
+}
+
+#fireworksButton {
+   background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%);
+   margin: 5vh;
+   padding: 20px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   font-size:4vw;
+   font-family: "ALK Rounded Mtav Med", sans-serif;
+   cursor: pointer;
+   text-decoration: none;
+   border:none;
+
+   
+}
+         
+
+
+ #fireworksButton:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+#countdown {
+   font-size: 10vw;
+   font-family: "ALK Rounded Mtav Med", sans-serif;
+   
+}
+
+.hidden {
+   display: none;
+}
+
+.main-text{
+   font-family: "BPG Irubaqidze", sans-serif;
+   font-size: 4vw
+}
+
+@keyframes fadeIn {
+   from {
+       opacity: 0;
+   }
+   to {
+       opacity: 1;
+   }
+}
+
+.main-text {
+   opacity: 0;
+   animation: fadeIn 1.5s forwards;
+}
